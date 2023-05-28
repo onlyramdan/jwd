@@ -168,6 +168,8 @@
 				<!-- Perulangan untuk menampilkan isi Array Daftar Maskapai beserta Rute Penerbangan -->
 				<?php
 					for($i=0; $i<count($rutePenerbanganAll); $i++){
+
+						
 						echo "<tr>";
 						echo "<td>".$rutePenerbanganAll[$i][0]."</td>";
 						echo "<td style='text-align: center;'>".$rutePenerbanganAll[$i][1]."</td>";
